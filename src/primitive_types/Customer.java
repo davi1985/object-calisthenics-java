@@ -23,7 +23,8 @@ public class Customer {
         return "{" +
                 "\"email\": \"" + email.getEmail() + "\", " +
                 "\"cpf\": \"" + cpf.getCpf() + "\", " +
-                "\"age\": \"" + age.getAge() + "\"" +
+                "\"age\": \"" + age.getAge() + "\", " +
+                "\"isActive\": \"" + isActive + "\"" +
                 "}";
     }
 }
