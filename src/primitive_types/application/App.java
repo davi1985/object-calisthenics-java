@@ -10,7 +10,8 @@ public class App {
         var customer = new Customer(
                 new Email("email@email.com"),
                 new Cpf("65205832193"),
-                new Age(40L)
+                new Age(40L),
+                true
         );
 
         System.out.println("Customer Details: ");
